@@ -1,0 +1,16 @@
+{
+    "name": "gin0115/wpdb-migrations-examples",
+    "type": "library",
+    "description": "Example of how to use the WPDB Migration library from PinkCrab",
+    "autoload": {
+        "psr-4": {
+            "PinkCrab\\Migration_Example\\": "src"
+        },
+        "files": []
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "pinkcrab/table_builder": "1.*",
+        "pinkcrab/wp-db-migrations": "1.*"
+    }
+}
