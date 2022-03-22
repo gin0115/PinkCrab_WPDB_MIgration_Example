@@ -82,8 +82,8 @@ function activation_callback(): void {
 		);
 	}
 
-    // Register the uninstall hook.
-    register_uninstall_hook( __FILE__, 'PinkCrab\Migration_Example\uninstall_callback' );
+	// Register the uninstall hook.
+	register_uninstall_hook( __FILE__, 'PinkCrab\Migration_Example\uninstall_callback' );
 }
 
 /**
@@ -109,6 +109,5 @@ function uninstall_callback(): void {
 	} catch ( \Throwable $th ) {
 		// DO NOTHING HERE AS YOU SHOULD NOT STOP A PLUGIN FROM BEING
 		// UNINSTALLED, EVER!
-		dd( "ERROR REMOVING {$th}" );
 	}
 }
